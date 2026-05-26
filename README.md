@@ -2,12 +2,11 @@
  
 &nbsp;&nbsp;&nbsp;The microsystem uses:
 
-**27C2048 EPROM** for program memory storage;
-**62512 SRAM** circuits for data memory;
-**8251 USART** for serial communication;
-**8255 PPI** for parallel communication and peripheral control;
-**a 4x3 keypad** for user input;
-**LEDs and 7-segment displays** for visual output.
+* **Memory Storage:** 62512 SRAM circuits for data memory
+* **Serial Communication:** 8251 USART for serial communication
+* **Peripheral Control:** Peripheral control systems
+* **User Input:** A 4x3 keypad for user input
+* **Visual Output:** LEDs and 7-segment displays for visual output
 
 &nbsp;&nbsp;&nbsp;Address, data, and control buses are used to connect all components to the 8086 microprocessor. Memory and I/O selection are performed using 74LS138 address decoders, while synchronization is achieved using a 15 MHz quartz crystal and the 8284A clock generator.
 
