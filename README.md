@@ -12,11 +12,18 @@
 
 &nbsp;&nbsp;&nbsp;The project also includes assembly language routines for:
 
-initializing the 8251 and 8255 interfaces;
-serial transmission and reception;
-parallel data output;
-keypad scanning;
-LED control;
-hexadecimal character display on 7-segment displays.
+### Core Functionalities & Interface Control
+
+#### Hardware Initialization
+* **8251 USART Interface:** Initialized for serial communication protocol setup.
+* **8255 PPI Interface:** Configured for parallel I/O and peripheral management.
+
+#### Peripheral Control & Data Processing
+* **Serial Communication:** Full support for serial data transmission and reception.
+* **Parallel Data Output:** Managing parallel data streams via the 8255 interface.
+* **Keypad Scanning:** Active polling/scanning matrix for the 4x3 keypad to capture user input.
+* **Visual Output & Displays:**
+    * LED control for status indicators.
+    * Hexadecimal character decoding and display on 7-segment displays.
 
 &nbsp;&nbsp;&nbsp;The purpose of the project is to demonstrate the operation and interfacing capabilities of a complete 8086-based microsystem using both memory and peripheral devices.
