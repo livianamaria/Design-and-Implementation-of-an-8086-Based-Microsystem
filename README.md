@@ -1,4 +1,4 @@
-This project presents the *** design and implementation of a microsystem based on the Intel 8086 microprocessor *** . The system integrates EPROM and SRAM memory modules, programmable peripheral interfaces, and multiple input/output devices.
+This project presents the ***design and implementation of a microsystem based on the Intel 8086 microprocessor*** . The system integrates EPROM and SRAM memory modules, programmable peripheral interfaces, and multiple input/output devices.
 
 The microsystem uses:
 
